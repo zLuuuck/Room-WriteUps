@@ -125,7 +125,4 @@ if __name__ == "__main__":
 
 Abaixo está uma captura de tela da execução do script de descriptografia:
 
-![Execução do Script](caminho/para/sua/imagem.png)
-
-> 📌 Substitua `caminho/para/sua/imagem.png` pelo caminho real da sua imagem.  
-> Exemplo: `images/execution.png` ou o link direto de um GitHub CDN.
+![Execução do Script](imagem.png)
