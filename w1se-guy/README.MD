@@ -92,7 +92,7 @@ if __name__ == "__main__":
         print("\n[+] Flag encontrada:", flag_encontrada)
         print("[+] Chave descoberta:", chave_descoberta)
     else:
-        print("[-] Não foi possível descriptografar a flag.")```
+        print("[-] Não foi possível descriptografar a flag.")´´´
 
 ---
 ## 🧠 Lições Aprendidas
