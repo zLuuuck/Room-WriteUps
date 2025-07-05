@@ -1,3 +1,8 @@
+Meu erro, peço desculpas novamente\! Entendi perfeitamente agora. Você quer o **código HTML completo**, com todas as tags HTML (`<html>`, `<head>`, `<body>`, etc.), e não apenas a sintaxe Markdown.
+
+Vou gerar o HTML exatamente como você pediu, com a imagem e os estilos básicos para que ele se pareça com a visualização no GitHub.
+
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -5,43 +10,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>W1se Guys: Reengenharia de Criptografia XOR e Recuperação de Chave</title>
     <style>
-        /* Estilos básicos para melhorar a legibilidade, você pode expandir isso */
+        /* Estilos CSS para simular a aparência de um README no GitHub */
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
             line-height: 1.6;
-            margin: 20px;
-            background-color: #f6f8fa;
-            color: #24292e;
+            margin: 0;
+            padding: 20px;
+            background-color: #f6f8fa; /* Cor de fundo similar ao GitHub */
+            color: #24292e; /* Cor do texto principal */
         }
         .container {
-            max-width: 900px;
+            max-width: 960px; /* Largura máxima para conteúdo */
             margin: auto;
             background-color: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 45px; /* Padding interno */
+            border-radius: 6px;
+            box-shadow: 0 3px 10px rgba(27,31,35,0.1); /* Sombra suave */
+            box-sizing: border-box; /* Inclui padding e borda no tamanho total */
         }
-        h1, h2, h3, h4 {
-            color: #0366d6;
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 0.3em;
+        h1, h2, h3, h4, h5, h6 {
+            color: #24292e;
+            font-weight: 600;
+            line-height: 1.25;
             margin-top: 1.5em;
+            margin-bottom: 16px;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid #eaecef; /* Linha sob os títulos */
         }
-        h1 { font-size: 2.5em; }
-        h2 { font-size: 2em; }
-        h3 { font-size: 1.5em; }
+        h1 { font-size: 2em; } /* Equivalente a Markdown # */
+        h2 { font-size: 1.5em; } /* Equivalente a Markdown ## */
+        h3 { font-size: 1.25em; } /* Equivalente a Markdown ### */
+        p {
+            margin-bottom: 16px;
+        }
         pre {
-            background-color: #f6f8fa;
+            background-color: #f6f8fa; /* Fundo do bloco de código */
             border-radius: 3px;
             padding: 16px;
-            overflow-x: auto;
+            overflow-x: auto; /* Permite rolagem horizontal para códigos longos */
             font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
             font-size: 0.85em;
             line-height: 1.45;
             color: #333;
         }
         code {
-            background-color: #f6f8fa;
+            background-color: rgba(27,31,35,0.05); /* Fundo para código inline */
             padding: 0.2em 0.4em;
             border-radius: 3px;
             font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
@@ -50,13 +63,13 @@
         img {
             max-width: 100%;
             height: auto;
-            display: block; /* Garante que a imagem se centre se tiver margin: auto */
-            margin: 20px auto;
-            border: 1px solid #eaecef;
+            display: block; /* Imagem como bloco para melhor controle de margem */
+            margin: 20px auto; /* Centraliza a imagem */
+            border: 1px solid #eaecef; /* Borda sutil na imagem */
             border-radius: 4px;
         }
         a {
-            color: #0366d6;
+            color: #0366d6; /* Cor de link do GitHub */
             text-decoration: none;
         }
         a:hover {
@@ -65,15 +78,17 @@
         ul {
             list-style-type: disc;
             margin-left: 20px;
+            padding-left: 0;
+            margin-bottom: 16px;
         }
         li {
-            margin-bottom: 0.5em;
+            margin-bottom: 0.25em;
         }
         hr {
             border: 0;
             height: 1px;
             background: #eaecef;
-            margin: 20px 0;
+            margin: 24px 0;
         }
     </style>
 </head>
@@ -112,7 +127,7 @@
 
         <p>A sala disponibilizou o código-fonte Python do serviço de criptografia, o que foi fundamental para entender a lógica subjacente. A análise revelou os seguintes aspectos críticos:</p>
 
-        <pre><code># Trecho relevante do código analisado do servidor
+        <pre><code class="language-python"># Trecho relevante do código analisado do servidor
 # ... (código omitido para brevidade) ...
 
 def setup(server, key):
@@ -167,7 +182,7 @@ def start(server):
 
         <p>O <em>script</em> <code>script.py</code> implementa essa lógica:</p>
 
-        <pre><code>import string
+        <pre><code class="language-python">import string
 from itertools import product
 
 def xor_descriptografar(texto_cifrado_hex, texto_claro_conhecido="THM{", tamanho_chave=5):
@@ -255,3 +270,4 @@ if __name__ == "__main__":
     </div>
 </body>
 </html>
+```
