@@ -45,6 +45,8 @@ Sabendo que flags no TryHackMe seguem o padrão `THM{...}`:
 - Ataque de texto conhecido (known-plaintext)  
 - Brute-force parcial  
 - Validação de padrão (`THM{}`)
+- VSCode para criação do script
+- NC(Netcat) para reprodução no ambiente da máquina do THM
 
 ---
 
