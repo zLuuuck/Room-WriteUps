@@ -93,3 +93,28 @@ if __name__ == "__main__":
         print("[+] Chave descoberta:", chave_descoberta)
     else:
         print("[-] Não foi possível descriptografar a flag.")```
+
+---
+## 🧠 Lições Aprendidas
+
+### ✅ Conceituais
+
+- Criptografia fraca com XOR e chave curta é altamente vulnerável, principalmente se a estrutura do plaintext for previsível.
+- Conhecimento prévio de padrões como `THM{...}` viabiliza ataques de known-plaintext extremamente eficazes.
+- A repetição da chave em cifragem simétrica (key-reuse) permite ataques segmentados que reduzem significativamente o espaço de busca.
+
+### 🧪 Técnicas
+
+- Utilizar XOR reverso permite identificar a chave byte a byte com base em fragmentos conhecidos.
+- Ataques de força bruta são viáveis quando:
+  - O comprimento da chave é pequeno.
+  - O conjunto de caracteres possível é limitado (ex: letras e números).
+- Validação de prefixo e sufixo (`startswith`, `endswith`) é útil para verificar rapidamente se o resultado da decodificação é válido.
+
+### 🚩 Boas Práticas
+
+- Sistemas reais nunca devem usar XOR puro com chave fixa ou pequena.
+- Sempre utilize criptografia autenticada (ex: AES-GCM, ChaCha20-Poly1305) com geração segura de chaves.
+- Mesmo desafios simples como este ajudam a compreender os princípios de quebra de criptografia na prática.
+
+---
