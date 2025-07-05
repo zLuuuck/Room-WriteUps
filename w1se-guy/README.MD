@@ -125,4 +125,4 @@ if __name__ == "__main__":
 
 Abaixo está uma captura de tela da execução do script de descriptografia:
 
-![Execução do Script](imagem.png)
+![Execução do Script](https://github.com/zLuuuck/THM-Rooms/blob/main/w1se-guy/Imagem.png)
