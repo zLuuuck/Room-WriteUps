@@ -1,8 +1,3 @@
-Meu erro, peço desculpas novamente\! Entendi perfeitamente agora. Você quer o **código HTML completo**, com todas as tags HTML (`<html>`, `<head>`, `<body>`, etc.), e não apenas a sintaxe Markdown.
-
-Vou gerar o HTML exatamente como você pediu, com a imagem e os estilos básicos para que ele se pareça com a visualização no GitHub.
-
-```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
