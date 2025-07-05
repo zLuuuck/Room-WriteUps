@@ -46,7 +46,7 @@ Sabendo que flags no TryHackMe seguem o padrão `THM{...}`:
 - Brute-force parcial  
 - Validação de padrão (`THM{}`)
 - VSCode para criação do script
-- NC(Netcat) para reprodução no ambiente da máquina do THM
+- NC(Netcat) para conexão do servidor
 
 ---
 
@@ -120,3 +120,12 @@ if __name__ == "__main__":
 - Mesmo desafios simples como este ajudam a compreender os princípios de quebra de criptografia na prática.
 
 ---
+
+## 🖼️ Execução
+
+Abaixo está uma captura de tela da execução do script de descriptografia:
+
+![Execução do Script](caminho/para/sua/imagem.png)
+
+> 📌 Substitua `caminho/para/sua/imagem.png` pelo caminho real da sua imagem.  
+> Exemplo: `images/execution.png` ou o link direto de um GitHub CDN.
