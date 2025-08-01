@@ -90,6 +90,3 @@ nisso, podemos utilizar o python 3.8 para rodar um script simples, que da o aces
 Com o acesso root, podemos finalmente pegar a ultima chave e dizer que a máquina esta conlcuida
 
 <img src="./prints/print15.png">
-
-# cat root.txt	
-093f31ea94294235fb37e534d8209167
